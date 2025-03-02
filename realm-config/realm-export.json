@@ -2,6 +2,8 @@
   "id": "betterGR",
   "realm": "betterGR",
   "loginTheme": "betterGR",
+  "accessTokenLifespan": 7200,
+  "accessTokenLifespanForImplicitFlow": 7200,
   "enabled": true,
   "defaultSignatureAlgorithm": "RS256",
   "roles": {
@@ -151,6 +153,10 @@
     }
   ],
   "attributes": {
+    "accessTokenLifespan": "7200",  
+    "ssoSessionMaxLifespan": "6400",  
+    "ssoSessionIdleTimeout": "3600",  
+    "offlineSessionIdleTimeout": "2592000",  
     "cibaBackchannelTokenDeliveryMode": "poll",
     "cibaExpiresIn": "120",
     "cibaAuthRequestedUserHint": "login_hint",
