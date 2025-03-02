@@ -85,32 +85,32 @@
   "users": [
     {
       "id": "123456789",
-      "username": "user1",
+      "username": "vmaroon",
       "enabled": true,
-      "email": "user1@bettergr.com",
-      "firstName": "user1",
-      "lastName": "user1",
+      "email": "vMaroon@technion.ac.il",
+      "firstName": "Maroon",
+      "lastName": "Ayoub",
       "realmRoles": ["student"],
       "credentials": [
         {
           "type": "password",
-          "value": "user123",
+          "value": "123456",
           "temporary": false
         }
       ]
     },
     {
       "id": "987654321",
-      "username": "user2",
+      "username": "RickRoll",
       "enabled": true,
-      "email": "user2@bettergr.com",
-      "firstName": "user2",
-      "lastName": "user2",
+      "email": "NeverGonna@giveyou.up",
+      "firstName": "Rick",
+      "lastName": "Astley",
       "realmRoles": ["student"],
       "credentials": [
         {
           "type": "password",
-          "value": "user123",
+          "value": "123456",
           "temporary": false
         }
       ]
